@@ -1,5 +1,5 @@
 body {
-    background-color:hsl(221, 100%, 96%);
+    background-color: hsl(221, 100%, 96%);
     height: 100vh;
     font-family: 'Hanken Grotesk', sans-serif;
 }
@@ -14,7 +14,7 @@ body {
 .result {
     background-color: hsl(252, 100%, 67%);
     color: #fff;
-    width: 300px;
+    width: 320px;
     height: 350px;
     border-radius: 20px;
     display: flex;
@@ -78,19 +78,19 @@ body {
     gap: 7px;
 }
 
-.summary .reaction.container{
-    color:hsl(0, 100%, 67%);
+.summary .reaction.container {
+    color: hsl(0, 100%, 67%);
 }
 
-.summary .memory.container{
+.summary .memory.container {
     color: hsl(39, 100%, 56%);
 }
 
-.summary .verbal.container{
+.summary .verbal.container {
     color: hsl(166, 100%, 37%);
 }
 
-.summary .visual.container{
+.summary .visual.container {
     color: hsl(234, 85%, 45%);
 }
 
