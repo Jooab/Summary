@@ -1,0 +1,122 @@
+body {
+    background-color:hsl(221, 100%, 96%);
+    height: 100vh;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.result {
+    background-color: hsl(252, 100%, 67%);
+    color: #fff;
+    width: 300px;
+    height: 350px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 40px;
+}
+
+
+.result .result-info {
+    background-color: hsla(256, 72%, 46%, 1);
+    width: 125px;
+    height: 125px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 50%;
+    margin: 20px 0 12px;
+}
+
+.result .result-info h4 {
+    font-size: 12px;
+    opacity: 0.6;
+}
+
+.result .result-info h1 {
+    font-size: 45px;
+}
+
+.result h3,
+.result p {
+    opacity: 0.8;
+}
+
+.result h2 {
+    margin: 8px;
+}
+
+.result p {
+    font-size: 15px;
+}
+
+.summary {
+    background-color: #fff;
+    width: 300px;
+    height: 350px;
+    border-radius: 0 20px 20px 0;
+    padding: 30px;
+}
+
+.summary .info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.summary .info .container {
+    gap: 7px;
+}
+
+.summary .reaction.container{
+    color:hsl(0, 100%, 67%);
+}
+
+.summary .memory.container{
+    color: hsl(39, 100%, 56%);
+}
+
+.summary .verbal.container{
+    color: hsl(166, 100%, 37%);
+}
+
+.summary .visual.container{
+    color: hsl(234, 85%, 45%);
+}
+
+
+.summary h2 {
+    font-size: 18px;
+    color: hsl(224, 30%, 27%);
+    margin-bottom: 15px;
+}
+
+.summary .info span {
+    opacity: 0.5;
+}
+
+.summary .button {
+    padding: 12px;
+    width: 100%;
+    color: #fff;
+    background-color: hsl(224, 30%, 27%);
+    border-radius: 50px;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.summary .button:hover {
+    background-color: hsla(256, 72%, 46%, 1);
+    cursor: pointer;
+}
